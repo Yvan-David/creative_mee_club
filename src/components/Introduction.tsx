@@ -1,7 +1,7 @@
 import hero from "../assets/hero.jpeg"
 import {  useEffect, useState } from "react";
 
-
+//const URL= "https://creative-mee-club.vercel.app/"
 export default function Introduction() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
