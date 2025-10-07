@@ -1,14 +1,5 @@
-import { Button} from "antd";
-// import Image from "next/image";
-// import home from "../assets/home.svg"
-// import ContactForm from "./contact";
-import { Link } from "react-router-dom";
 import hero from "../assets/hero.jpeg"
-//import hero2 from "../assets/hero2.jpeg";
-import hero3 from "../assets/hero3.jpeg";
-import hero4 from "../assets/hero4.jpeg"
-import { Search, ChevronDown, Play } from 'lucide-react';
-import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 
 
 export default function Introduction() {
