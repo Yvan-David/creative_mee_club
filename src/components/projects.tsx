@@ -27,7 +27,8 @@ const ExploreProjects = () => {
         "Commitment to weekly team meetings",
         "Willingness to learn and experiment"
       ],
-      technologies: ["Arduino", "MPU6050", "Motor Drivers", "C++", "PID Control"]
+      technologies: ["Arduino", "MPU6050", "Motor Drivers", "C++", "PID Control"],
+      deadline: "20 Oct 2025"
     },
     {
       id: 2,
@@ -51,7 +52,8 @@ const ExploreProjects = () => {
         "Willingness to work outdoors for testing (optional)",
         "Team spirit and reliability"
       ],
-      technologies: ["Solar panels", "Water pumps", "Arduino", "Sensors"]
+      technologies: ["Solar panels", "Water pumps", "Arduino", "Sensors"],
+      deadline: "20 Oct 2025"
     },
     {
       id: 3,
@@ -75,7 +77,8 @@ const ExploreProjects = () => {
         "Hands-on fabrication skills or willingness to learn",
         "Basic knowledge of electronics or programming is a plus"
       ],
-      technologies: ["Arduino", "Mechanical Systems", "CAD", "Prototyping", "3D printing"]
+      technologies: ["Arduino", "Mechanical Systems", "CAD", "Prototyping", "3D printing"],
+      deadline: "20 Oct 2025"
     }
   ];
 
@@ -200,6 +203,11 @@ const ExploreProjects = () => {
                     {/* <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
                       Apply for This Project
                     </button> */}
+                    <div>
+                          <span className="px-3 py-1 bg-yellow-100 text-red-500 rounded-full text-sm font-medium">
+                           Deadline: {project.deadline}
+                          </span>
+                    </div>
                   </div>
                 </div>
               </div>

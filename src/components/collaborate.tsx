@@ -59,13 +59,17 @@ const Collaborate = () => {
                 <div className="p-5">
                   <h3 className="font-semibold text-gray-900 mb-3 text-lg">{project.title}</h3>
                   <div className="flex items-center justify-between">
+                                        <div>
+                                                <span className="px-3 py-1 bg-indigo-100 text-red-500 rounded-full text-sm font-medium">
+                           Deadline: 20 Oct 2025
+                          </span>
+                    </div>
                     <button 
                       onClick={() => window.location.href = `/projects`}
                       className="text-sm text-red-600 hover:text-red-800 font-medium transition-colors duration-200"
                     >
                       EXPLORE →
                     </button>
-     
                   </div>
                   
                   {/* Expandable Details */}
